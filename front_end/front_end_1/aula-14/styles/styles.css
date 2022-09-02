@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.discount-bar{
+    height: 2.7vh;
+    width: 100vw;
+    background: #D1891C;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.title-bar{
+    height: 5vh;
+    width: 100vw;
+    background: #00669f;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    box-shadow: 0px 0.2rem 0.1rem 0px #00000040;
+
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background: #F3F3F3;
+    width: 17.5rem;
+    height: 35rem;
+    align-items: center;
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    margin-bottom: 1rem;
+}
+
+.bg-batman{
+    position: relative;
+    background-image: url(/aula-14/img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+    width: 17.5rem;
+    height: 10rem;
+    border-radius: 1.5rem 1.5rem 0rem 0 ;
+}
+
+.bg-mulher{
+    position: relative;
+    background-image: url(/aula-14/img/bg-mulher.png);
+    width: 17.5rem;
+    height: 10rem;
+    border-radius: 1.5rem 1.5rem 0rem 0 ;
+}
+
+.bg-super{
+    position: relative;
+    background-image: url(/aula-14/img/bg-super.png);
+    width: 17.5rem;
+    height: 10rem;
+    border-radius: 1.5rem 1.5rem 0rem 0 ;
+}
+
+.bg-arlequina{
+    position: relative;
+    background-image: url(/aula-14/img/bg-arlequina.png);
+    width: 17.5rem;
+    height: 10rem;
+    border-radius: 1.5rem 1.5rem 0rem 0 ;
+}
+.hero-icon{
+    position: absolute;
+    width: 6.25rem;
+    height: 6.25rem;
+    top: 6.68rem;
+    left: 5.5rem;
+    border-radius: 3rem;
+}
+
+.icon-heart{
+    position: absolute;
+    width: 1.5rem;
+    height: 1.2rem;
+    top: 0.8rem;
+    left: 0.8rem;
+}
+
+.card-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0.5rem 2rem 0.5rem;
+    justify-content: space-around;
+    
+}
+
+.card-txt h1{
+    margin-bottom: 0.4rem;
+}
+
+.card button{
+    margin-top: 1rem;
+    background: #00669f;
+    height: 3rem;
+    width: 8rem;
+    color: #F3F3F3;
+    border: none;
+}
+
+.footer{
+    width: 100vw;
+    height: 8vh;
+    background: #00669f;
+    display: flex;
+    align-items: center;
+    color:#F3F3F3;
+    justify-content: space-between;
+}
+
+.footer span{
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.git-icon{
+    width: 5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem
+}
+
+
+@media (min-width:460px){
+    .main-section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
