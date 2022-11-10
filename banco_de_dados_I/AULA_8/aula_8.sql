@@ -1,0 +1,2 @@
+CREATE DATABASE minhaprimeirabasededados;
+USE minhaprimeirabasededados;
