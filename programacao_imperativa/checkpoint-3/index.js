@@ -110,8 +110,9 @@ let curso = {
  */
   listaAprovados(){
     let situacaoAluno = []
-    this.listaDeEstudantes.forEach((estudante, index) => {
-      situacaoAluno[index] = curso.alunoAprovado(estudante)
+
+    this.listaDeEstudantes.forEach((estudante, n) => {
+      situacaoAluno[n] = curso.alunoAprovado(estudante)
       return situacaoAluno
     });
     return situacaoAluno
